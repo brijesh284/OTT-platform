@@ -30,7 +30,9 @@ ul {
   font-size: 32px;
   margin-bottom: 20px;
 }
-
+.section-gab {
+  margin-top: 60px;
+}
 /* Navbar */
 .navbar {
   padding: 0px;
@@ -118,7 +120,7 @@ ul {
 
 .carousel-item .slider-dec {
   position: absolute;
-  top: 100px;
+  top: 120px;
   left: 100px;
   width: 45%;
   color: #fff;
@@ -129,6 +131,7 @@ ul {
   font-weight: bold;
   font-family: "Merriweather", serif;
   text-transform: uppercase;
+  margin-bottom: 3px;
 }
 
 .carousel-item .slider-dec h1 span {
@@ -149,7 +152,7 @@ ul {
 
 .dec-per p {
   margin-bottom: 0px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .slider-dec .play-btn {
@@ -221,10 +224,6 @@ ul {
 }
 
 /* filter-section */
-.filter-section {
-  margin-top: 50px;
-}
-
 .filter-title h3 {
   font-family: "Merriweather", serif;
   font-weight: 600;
@@ -377,12 +376,6 @@ ul {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
-  .card-slider {
-    width: 80%;
-  }
-}
-
 .card-slider .slick-prev-icon,
 .card-slider .slick-next-icon {
   color: black;
@@ -420,9 +413,6 @@ ul {
 }
 
 /*  preview for you */
-.priview-section {
-  margin-top: 50px;
-}
 
 .priview-section .priview-body {
   background-color: #fff;
@@ -502,16 +492,14 @@ ul {
   width: 50px;
 }
 
-
 /* week-trend */
 .week-trend {
-  margin-top: 50px;
   background-color: #141414;
   padding-top: 50px;
 }
 
 .week-trend .title-section h3 {
-  color: #fff
+  color: #fff;
 }
 
 .week-main-list {
@@ -716,7 +704,8 @@ ul {
 }
 
 .item-1:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(..//img/week-trend2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(..//img/week-trend2.jpg);
   background-size: 100% 100%;
 }
 
@@ -725,7 +714,8 @@ ul {
 }
 
 .item-2:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(..//img/week-trend2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(..//img/week-trend2.jpg);
   background-size: 100% 100%;
 }
 
@@ -734,7 +724,8 @@ ul {
 }
 
 .item-3:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(..//img/week-trend7.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(..//img/week-trend7.jpg);
   background-size: 100% 100%;
 }
 
@@ -743,36 +734,36 @@ ul {
 }
 
 .item-4:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(..//img/week-trend4.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(..//img/week-trend4.jpg);
   background-size: 100% 100%;
 }
 
 .item-5 {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(..//img/week-trend2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(..//img/week-trend2.jpg);
 }
 
 .item-5:hover {
   background-image: url(..//img/week-trend6.png);
   background-size: 100% 100%;
 }
-/* categoris-section */
-.categoris-section{
-  margin-top: 50px;
-}
-.categoris-section .cate-inner .cate-dec{
+/* categories-section */
+
+.categories-section .cate-inner .cate-dec {
   border: 1px solid #d3d5df;
   box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 80px 20px 30px;
+  padding: 110px 20px 20px;
   border-radius: 8px;
   position: relative;
   z-index: 9;
   overflow: hidden;
   cursor: pointer;
 }
-.categoris-section .cate-inner .cate-dec::before {
+.categories-section .cate-inner .cate-dec::before {
   content: "";
   position: absolute;
   background-color: #00000095;
@@ -782,32 +773,27 @@ ul {
   height: 100%;
   z-index: -1;
 }
-.categoris-section .cate-inner .romance-movie{
+.categories-section .cate-inner .romance-movie {
   background-image: url(..//img/banner1.jpg);
 }
-.categoris-section .cate-inner .action-movie{
+.categories-section .cate-inner .action-movie {
   background-image: url(..//img/banner2.webp);
-
 }
-.categoris-section .cate-inner .war-movie{
+.categories-section .cate-inner .war-movie {
   background-image: url(..//img/banner3.jpg);
-
 }
-.categoris-section .cate-inner .comedy-movie{
+.categories-section .cate-inner .comedy-movie {
   background-image: url(..//img/banner1.jpg);
-
 }
-.categoris-section .cate-inner .cate-dec h2{
+.categories-section .cate-inner .cate-dec h2 {
   color: #fff;
   margin-bottom: 0px;
   font-size: 25px;
   font-weight: 500;
 }
 /* new-bollywood */
-.new-bollywood{
-  margin-top: 50px;
-}
-.bollywood-list .mov-img{
+
+.bollywood-list .mov-img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -816,40 +802,119 @@ ul {
   border: 1px solid #d3d5df;
   box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
 }
-.main-left{
+.main-left {
   background-image: url(..//img/bollywood1.jpg);
   height: 600px;
 }
-.half-right{
+.half-right {
   height: 290px;
 }
-.img2{
+.img2 {
   background-image: url(..//img/bollywood14.jpg);
 }
-.img3{
+.img3 {
   background-image: url(..//img/bollywood3.jpg);
 }
-.img4{
+.img4 {
   background-image: url(..//img/bollywood6.jpg);
 }
-.img5{
+.img5 {
   background-image: url(..//img/bollywood5.jpg);
 }
-/* footer-section */
-.footer-section{
-  margin-top: 50px;
-  background-color: #37b6bb;
-  padding: 50px;
+@media screen and (max-width: 1199px) {
+  .carousel-item .slider-dec {
+    width: 80%;
+    top: 80px;
+  }
+  .carousel-item {
+    height: 430px;
+  }
+  .card-slider .trending-movie-list {
+    height: auto;
+  }
 }
-.footer-section h3{
-  color: #fff;
-  font-size: 25px;
-  font-weight: 500;
-  margin-bottom: 20px;
+@media screen and (max-width: 991px) {
+  .priview-dec {
+    padding: 30px;
+  }
+  .categories-section .cate-inner .cate-dec h2 {
+    font-size: 18px;
+  }
+  .categories-section .cate-inner .cate-dec {
+    padding: 70px 20px 20px;
+  }
 }
-.footer-section ul li{
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 10px;
-  font-weight: 400;
+@media screen and (max-width: 767px) {
+  .navbar .navbar-nav li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .navbar .navbar-nav {
+    margin-left: 0px;
+    flex-direction: row;
+  }
+  .search-dec {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .section-gab {
+    margin-top: 30px;
+  }
+  .title-section h3 {
+    font-size: 22px;
+  }
+  .carousel-item .slider-dec {
+    width: 90%;
+    top: 30px;
+    left: 30px;
+  }
+  .carousel-item .slider-dec h1 {
+    font-size: 30px;
+  }
+  .dec-per p {
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+  .filter-section .ott-dec-list {
+    display: none;
+  }
+  .filter-body {
+    margin-top: 10px;
+  }
+  .filter-body {
+    padding: 15px;
+  }
+  .filter-inputs {
+    margin-top: 20px;
+  }
+  .card-slider .trending-movie-list {
+    height: 200px;
+  }
+  .item {
+    width: 50%;
+  }
+  .item-3,
+  .item-4 {
+    display: none;
+  }
+  .main-left {
+    height: 200px;
+  }
+  .half-right {
+    height: 220px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .slider-dec .play-btn button {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .slider-dec .play-btn a {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .priview-dec {
+    padding: 15px;
+  }
 }
